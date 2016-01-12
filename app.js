@@ -21,5 +21,3 @@ app.use('/', router);
 //  app.use(express.errorHandler());
 //}
 http.createServer(app).listen(app.get('port'),function (){});
-
-//app.listen(app.get('port'));
