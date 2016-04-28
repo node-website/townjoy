@@ -3,14 +3,13 @@
 	float: right;
 	z-index: 999;
 	position: relative;
-	padding-top: 19px;
-	margin-right: -20px;
+	top:25px;
 }
 
 
 .menu_block nav {
 	position: relative;
-	font-family: 'Dorsa', sans-serif;
+	font-family: 'STKaiti', sans-serif;
 }
 
 
@@ -26,8 +25,8 @@ nav{ position:relative;padding: 0px 0 0 0;}
 	display: block;
 	position: relative;
 	float: left;
-	font-size: 36px;
-	line-height: 36px;
+	font-size: 30px;
+	line-height: 30px;
 
 }
 
@@ -35,8 +34,8 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 .sf-menu>li+li:after {
 	left: 0;
-	top: 0;
-	height: 71px;
+	top: 10px;
+	height: 30px;
 	width: 1px;
 	content: '';
 	position: absolute;
@@ -53,12 +52,11 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 
 .sf-menu>li>a{
-	width:147px;
 	background: url(../images/menu_hover.png) 0 -100px repeat-x;
 	text-align: center;
 	color: #009b97;
 	display: block;
-	padding: 18px 15px;
+	padding: 10px 30px;
 	border-bottom: 3px solid transparent;
 	position: relative;
 	overflow: hidden;
