@@ -16,12 +16,14 @@
     #Mobile (Landscape)
     #Clearing */
 
-
+.container_11{ position: relative; width: 100%; height:80px; margin: 0 auto; padding: 0; background-color: rgba(180, 200, 255, 0.61);box-shadow: 0px 8px 45px 20px #84AEEA inset;}
+.grid_111{width: 960px; margin:0 auto; padding: 0;}
 
 /* #Base 960 Grid
 ================================================== */
 
-    .container_12{ position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .container_12{ position: relative; width: 960px; margin: 20px auto 0 auto; padding: 0; }
+	.container_13{ position: relative; width: 960px; margin: 80px auto 0 auto; padding: 0; }
 	.grid_1,
 	.grid_2,
 	.grid_3,
@@ -35,6 +37,10 @@
 	.grid_11,
 	.grid_12
 	{ float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+
+	.container_13 .grid_13{display: inline; margin-left: 10px; margin-right: 10px; }
+	.container_13 .grid_13 .txt {margin:0; line-height:30px; font-size: 18px;}
+
 
     /* Nested Column Classes */
      .container_12 .alpha               { margin-left: 0; }

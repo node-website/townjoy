@@ -1,6 +1,5 @@
 @import "reset.css";
 @import "skeleton.css";
-@import "font-awesome.css";
 @import "superfish.css";
 
 
@@ -239,13 +238,13 @@ header h1 {
 	position: relative;
 	text-align: center;
     float: left;
+    bottom: -10px;
 }
 
 
 header h1 a {
 	display: inline-block;
 	overflow: hidden;
-	width: 178px;
 	font-size: 0;
 	line-height: 0;
 	text-indent: -999px;
@@ -451,64 +450,13 @@ footer {
     border-top: 1px solid #d9d9d9;
 	display: block;
     text-align: center;
-    padding: 0px 0 57px;
-    font-size: 12px;
+    font-size: 14px;
     color: #8c8989;
-    line-height: 14px;
+    height: 80px;
+    line-height: 80px;
 }
 
-.socials {
-    margin-bottom: 40px;
-    font-size: 0;
-    line-height: 0;
-    padding-top: 43px;
-}
-
-.socials a>span {
-    display: inline-block;
-    width: 49px;
-    color: #fff;
-    font-size: 18px;
-    line-height: 45px;
-    height: 49px;
-    border-radius: 500px;
-    background-color: #597d9a;
-    border: 2px solid #316894;
-}
-
-.socials section+section {
-    margin-left: 7px;
-}
-
-.socials * {
-    white-space: nowrap !important;
-}
-
-.socials section+section>a>span {
-    background-color: #589dd4;
-    border-color: #4885b6;
-}
-
-.socials section+section+section>a>span {
-    background-color: #f37772;
-    border-color: #d2716d;
-}
-
-.socials section+section+section+section>a>span {
-    background-color: #ee6e9f;
-    border-color: #f9a2c4;
-}
-
-.socials section+section+section {
-    margin-left: 8px;
-}
-
-.socials section {
-    display: inline-block;
-}
-
-
-.copy {
+footer .copy {
     font-weight: normal;
 }
 
@@ -533,6 +481,14 @@ footer {
 #toTop:hover {
     outline: none;
     background-position: right 0;
+}
+
+
+
+
+
+.contact{
+    margin:80px 0 150px 0;
 }
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
