@@ -12,8 +12,8 @@ router.get('/product', function(req, res){
 });
 
 // 定义 about 页面的路由
-router.get('/about', function(req, res){
-  res.render('about', {page:3});
+router.get('/news', function(req, res){
+  res.render('news', {page:3});
 });
 
 // 定义 contact 页面的路由
